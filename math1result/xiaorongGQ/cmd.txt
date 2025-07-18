@@ -1,0 +1,1 @@
+python run.py --train_file data/math1_train_0.8_0.2.csv --valid_file data/math1_valid_0.8_0.2.csv --test_file data/math1_test_0.8_0.2.csv --Q_matrix math1result/zhiyouG/math1best_q_matrix.npy --save_path ./math1result/xiaorongGQ --n_user 4209 --n_item 15 --n_know 11 --user_dim 32 --item_dim 32 --batch_size 32 --lr 0.00009 --epoch 20 --device cpu --q_aug single --lambda_q 0.008
